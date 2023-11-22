@@ -1,0 +1,1 @@
+export const constant_comments = "/comments";

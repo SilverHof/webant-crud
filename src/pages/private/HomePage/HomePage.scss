@@ -1,0 +1,45 @@
+@import "../../../scss/variables";
+
+.home-page {
+   padding: 50px;
+   &__container {
+   }
+
+   &__inner {
+      
+   }
+
+   &__buttons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+   }
+
+   &__comments {
+      margin-top: 50px;
+
+      max-width: 100%;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      // grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 30px;
+      grid-row-gap: 30px; 
+   }
+
+   &__post-form {
+      margin-top: 10px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      width: 20%;
+   }
+
+   &__post-form-input {
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 1px solid blue;
+   }
+}
